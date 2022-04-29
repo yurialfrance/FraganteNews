@@ -1,0 +1,349 @@
+
+body {
+    
+    font-family: "Open Sans", sans-serif;
+    background-color: #8d0181;
+  }
+  
+  .layout_padding {
+    padding: 75px 0;
+  }
+  
+  .layout_padding-top {
+    padding-top: 75px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 75px;
+  }
+  
+  /*header section*/
+  
+  .header_section {
+    font-family: "Roboto", sans-serif;
+    background-color: #a50073;
+    color: #fff;
+    min-height: 90px;
+    padding: 1% 0;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    border-color: #fff;
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+  
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+
+  .nav-link:hover {
+    color: #fefefe;
+  }
+  
+  .logo_box {
+    width: 80px;
+  }
+  
+  .logo_box img {
+    width: 100%;
+  }
+  
+  .call_to_btn {
+    display: inline-block;
+    color: #fefefe;
+    padding: 10px 35px;
+    background-color: #f6bb08;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    border-radius: 0;
+  }
+  
+  /*end header section*/
+
+  /**Sports News Start*/
+/* security section */
+.security_section {
+}
+
+.security_section h2 {
+  text-transform: uppercase;
+  color: #0c0b09;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.security_section h3 {
+  text-transform: uppercase;
+  color: #e6ff04;
+  position: relative;
+  text-align: center;
+}
+
+.security_section h3::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  height: 1.5px;
+  width: 140px;
+ 
+}
+
+.security_section .security_container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.security_section .security_img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 300px;
+  height: 490px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+.security_section .security_img-box.i-box-1 {
+  background-image: url(../images/ginebra.jpg);
+}
+.security_section .security_img-box.i-box-2 {
+  background-image: url(../images/magnolia.jpg);
+}
+
+.security_section .security_img-box.i-box-3 {
+  background-image: url(../images/meralco.jpg);
+}
+.security_section .security_img-box.i-box-4 {
+    background-image: url(../images/sanmiguel.jpg);
+  }
+  .security_section .security_img-box.i-box-5 {
+    background-image: url(../images/nlex.jpg);
+  }
+  .security_section .security_img-box.i-box-6 {
+    background-image: url(../images/alaska.jpg);
+  }
+  .security_section .security_img-box.i-box-7 {
+    background-image: url(../images/tnt.jpg);
+  }
+.security_section .security_img-box a {
+  display: none;
+  opacity: 0;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border: 1.5px solid #f0f0f0;
+  color: #fff;
+}
+
+.security_section .security_img-box:hover a {
+  display: inline-block;
+  opacity: 1;
+}
+
+.security_btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.security_btn a,
+.security_btn a:hover {
+  text-transform: uppercase;
+
+}
+
+.security_btn a img {
+  width: 25px;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-nav.disabled {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 0;
+}
+
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: 50%;
+  background-color: #d608ff;
+  border-style: solid;
+  border-color: #e6ff04;
+  width: 70px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav .owl-next {
+  right: -25px;
+  background-image: url(../images/right-arrow.png);
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  left: -25px;
+  background-image: url(../images/left-arrow.png);
+}
+
+ /**Sports Na News Start*/
+  
+ #logo_container {
+    display:table;
+    height:480px;
+    width:640px;
+    margin:0 auto;   
+    text-align:center;
+    
+}
+
+.newspaper {
+    column-count: 1;
+    justify-content: inter-word;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px  1px #ffffff;
+    font-size: 20px;
+    
+
+  }
+
+
+#logo {
+    display:table-cell;
+    vertical-align:middle;
+
+   
+
+}
+#logo img {
+    max-height:80%;
+    max-width:80%;
+}
+  /**Editorial News End/*
+  /**Sports News End/*
+ 
+  
+  
+  /* info section */
+  .info_section {
+    background-color: #000202;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .info_section .info_detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info_section .info_detail p {
+    color: #fff;
+  }
+  
+  .address_link-container {
+    display: block;
+  }
+  
+  .address_link-container a {
+    display: flex;
+    color: #fff;
+    margin: 15px 0;
+    align-items: center;
+  }
+  
+  .address_link-container a img {
+    margin-right: 10px;
+  }
+  
+  .info_section .news_container h3,
+  .info_section .address_container h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+  }
+  
+  .info_section .news_container form {
+    margin: 28px 0;
+  }
+  
+  .info_section .news_container form input {
+    border: none;
+    background-color: #fff;
+    width: 70%;
+    padding: 7px 10px;
+  }
+  
+  .info_section .news_container form button {
+    border: none;
+    background-color: #93257b;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  .info_section .news_container .social_container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  
+  .footer_section {
+    background-color: #93257b;
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .footer_section p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #fff;
+  }
+  
+  /* end footer section*/
+  

@@ -1,0 +1,260 @@
+
+body {
+    
+    font-family: "Open Sans", sans-serif;
+    background-color: #ff00c8;
+  }
+  
+  .layout_padding {
+    padding: 75px 0;
+  }
+  
+  .layout_padding-top {
+    padding-top: 75px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 75px;
+  }
+  
+  /*header section*/
+  
+  .header_section {
+    font-family: "Roboto", sans-serif;
+    background-color: #a50073;
+    color: #fff;
+    min-height: 90px;
+    padding: 1% 0;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    border-color: #fff;
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+  
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+
+  .nav-link:hover {
+    color: #fefefe;
+  }
+  
+  .logo_box {
+    width: 80px;
+  }
+  
+  .logo_box img {
+    width: 100%;
+  }
+  
+  .call_to_btn {
+    display: inline-block;
+    color: #fefefe;
+    padding: 10px 35px;
+    background-color: #ffbf00;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    border-radius: 0;
+  }
+  
+  /*end header section*/
+
+  /**Editorial News Start*/
+  
+  #logo_container {
+    display:table;
+    height:480px;
+    width:640px;
+    margin:0 auto;   
+    text-align:center;
+    
+}
+
+.newspaper {
+    column-count: 1;
+    justify-content: inter-word;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px  1px #ffffff;
+    font-size: 20px;
+    
+
+  }
+
+
+#logo {
+    display:table-cell;
+    vertical-align:middle;
+
+   
+
+}
+#logo img {
+    max-height:80%;
+    max-width:80%;
+}
+  /**Editorial News End/*
+ 
+  
+  /*contact information */
+  
+  .contact_form-container {
+    background-image: url(../images/guards.jpg);
+  }
+  
+  .contact_form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .contact_form-container .contact_box {
+    background-color: #fff;
+    padding: 35px 40px;
+    width: 50%;
+    height: 60%;
+    margin: 100px 50px;
+  }
+  
+  .contact_form-container form input,
+  .contact_form-container form input:focus,
+  .contact_form-container form input:active {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #00cc99;
+    width: 85%;
+    margin-top: 12px;
+    outline: none;
+  }
+  
+  .contact_form-container form button {
+    border: none;
+    background-color: #f557f5;
+    color: #fff;
+    padding: 8px 20px;
+    margin-top: 15px;
+  }
+  
+  .contact_section .row .col-md-6 {
+    padding: 0;
+  }
+  
+  /* end contact section */
+  
+  /* info section */
+  .info_section {
+    background-color: #000202;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .info_section .info_detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info_section .info_detail p {
+    color: #fff;
+  }
+  
+  .address_link-container {
+    display: block;
+  }
+  
+  .address_link-container a {
+    display: flex;
+    color: #fff;
+    margin: 15px 0;
+    align-items: center;
+  }
+  
+  .address_link-container a img {
+    margin-right: 10px;
+  }
+  
+  .info_section .news_container h3,
+  .info_section .address_container h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+  }
+  
+  .info_section .news_container form {
+    margin: 28px 0;
+  }
+  
+  .info_section .news_container form input {
+    border: none;
+    background-color: #fff;
+    width: 70%;
+    padding: 7px 10px;
+  }
+  
+  .info_section .news_container form button {
+    border: none;
+    background-color: #93257b;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+  }
+  
+  .info_section .news_container .social_container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  
+  .footer_section {
+    background-color: #93257b;
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .footer_section p {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer_section a {
+    color: #fff;
+  }
+  
+  /* end footer section*/
+  
